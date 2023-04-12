@@ -9,7 +9,7 @@ const Movies = ({ dt }: { dt: any }) => {
 
   return (
     <div onClick={()=>router.push(`/movie/${dt?.id}`)} className="min-w-[450px] relative cursor-pointer">
-      <Image
+      <img
         width={450}
         height={400}
         alt={dt?.title}
